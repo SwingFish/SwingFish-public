@@ -1,0 +1,11 @@
+{
+    "sitepart": "tools",
+    "en": {
+        "title": "Download vWap for Forex",
+        "summary": "SwingFish Stop-Syncer is a Free cTrader Bot/Algo, that sets stop,tp,tsl on all current orders to the same level"
+    },
+    "de": {
+        "title": "Kostenfreie Forex Trade Signale",
+        "summary": "Forex Trade Signale, Kostenlos fuer jederman"
+    }
+}

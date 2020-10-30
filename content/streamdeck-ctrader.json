@@ -1,0 +1,11 @@
+{
+    "sitepart": "tools",
+     "en": {
+        "title": "StreamDeck Integration for cTrader",
+        "summary": "integrates the Elgato Streamdeck with cTrader"
+    },
+    "de": {
+        "title": "StreamDeck Integration for cTrader",
+        "summary": "allows communication between cTrader and the Elgato Streamdeck"
+    }
+}

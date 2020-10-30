@@ -6,7 +6,15 @@ unset($_SESSION['form']);
 if (checkDiscordPermissionHtml('member')){
 
 if (!checkDiscordPermission($_SESSION['discord']['id'], 'ball')){
-	echo "##NO BALL";
+?>
+	<div class="col-sm-12" style="width:100%;padding-top:10px;border: 2px solid #1bdb68; margin: 0 auto 30px auto;">
+			  <h3 class="pricing-title">Active Membership required !</h3>
+			  <p>In order to qualify for Free Forex funding, you need to be a 
+			  <h1>ACTIVE &amp; RESPECTED Member!</h1>
+			  you must archive this first before you can apply here. the application will automatically visible once this step is completed.</p>
+			  <p align="right"><a href="https://www.enfoid.com/prop/qform/fasttrack" target="_blank" class="btn btn-default btn-icon-right waves-effect waves-light">Don't want to wait? use Fast-track<i class="icon-arrow-right"></i></a> &nbsp; <a href="https://www.discord.com/invite/swingfish" target="_blank" class="btn btn-secondary btn-icon-right waves-effect waves-light">Back to Discord</a></p>
+		  </div>
+<?
 }
 	else {
 ?>

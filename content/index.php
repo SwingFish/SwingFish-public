@@ -1,2 +1,8 @@
 <?
 header("Location: /");
+
+/*
+sdfsdf
+
+
+*/

@@ -5,7 +5,7 @@ $_SESSION['discord']['return'] = "/members/prop";
 unset($_SESSION['form']);
 if (checkDiscordPermissionHtml('member')){
 
-if (!checkDiscordPermission('ball')){
+if (!checkDiscordPermission($_SESSION['discord']['id'], 'ball')){
 	echo "##NO BALL";
 }
 ?>

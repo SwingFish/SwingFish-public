@@ -1,8 +1,0 @@
-# to sync new files into svn and fix permissions
-NOW=$(date +"%m-%d-%Y %T")
-cd /var/www/swingfish.trade/html/bolt-v3.2.9
-svn add --force *
-svn ci -m "auto synced $NOW"
-svn up
-chown -R nobody:nobody ./
-

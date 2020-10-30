@@ -1,7 +1,0 @@
-<form role="search" method="get" class="search-form" action="{{ paths.root }}search">
-    <label>
-        <span class="screen-reader-text">{{ __("Search for:") }}</span>
-        <input type="search" class="search-field" value="{% if search is defined %}{{ search|escape }}{% endif %}" placeholder="{{ __("Search…") }}" name="search" />
-    </label>
-    <input type="submit" class="search-submit" value="{{ __("Search") }}" />
-</form>

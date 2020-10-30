@@ -1,1 +1,0 @@
-<iframe frameborder="0" scrolling="no" height="62" width="99%" allowtransparency="true" marginwidth="0" marginheight="0" src="https://ssltools.forexprostools.com/quotes_bar.php?force_lang=1&tab_1=&tab_2=&tab_3=166,172,27,178&curr-name-color=%230059B0&inner-text-color=%23666666&green-text-color=%23008000&red-text-color=%23FF0000"></iframe>

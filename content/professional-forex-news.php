@@ -1,7 +1,7 @@
 <section class="fw-section padding-top-2x padding-bottom-3x">
 	<div class="container">
 		<h3 class="swingfish">Forex News Services!</h3>
-		<p>there is a wide array on Services that do deliver news moreless in realtime to you, many of this Services have different strong &amp; weak points, we will try to show them to you, as each one can have an advantage on it's own, its just a matter on how you want to deploy them.</p>
+		<p>1there is a wide array on Services that do deliver news moreless in realtime to you, many of this Services have different strong &amp; weak points, we will try to show them to you, as each one can have an advantage on it's own, its just a matter on how you want to deploy them.</p>
 		<blockquote>just as a rule of Thumb, you get what you pay for !<br />the a service is only "expensive" if the service they provide costs more than the gain/edge you may archive by it.</blockquote>
 		<p>we have grouped the different Types of Services in groups to compare them properly, as they have different Strong Points</p>
 		<div class="row padding-top">

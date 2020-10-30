@@ -1,6 +1,9 @@
-# SwingFish
-SwingFish is a Non-Profit Trading Project with to goal of providing Social interactions with other Traders.
+# SwingFish Public
 
-... but Troll Free
+holds Public parts of website and services for collabration.
+
+- spelling
+- content extentions
+- keeping stuff up to date
 
 http://swingfish.trade

@@ -4,6 +4,10 @@ require_once(URI.'lib/3rd/discord/link/permission-functions.php');
 $_SESSION['discord']['return'] = "/members/prop";
 unset($_SESSION['form']);
 if (checkDiscordPermissionHtml('member')){
+
+if (!checkDiscordPermission('ball')){
+	echo "##NO BALL";
+}
 ?>
 <img src="https://www.enfoid.com/assets/images/enfoidprop3.png?1" align="right" width="145px" alt="EnFoid Prop Logo">
 <p>EnFoid provides free Proprietary Funding to talented SwingFish Members.

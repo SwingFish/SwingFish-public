@@ -5,7 +5,7 @@ $_SESSION['discord']['return'] = "/members/prop";
 unset($_SESSION['form']);
 if (checkDiscordPermissionHtml('member')){
 
-if (!checkDiscordPermission($_SESSION['discord']['id'], 'ball')){
+if (checkDiscordPermission($_SESSION['discord']['id'], 'ball') != true){
 ?>
 	<div class="col-sm-12" style="width:100%;padding-top:10px;border: 2px solid #1bdb68; margin: 0 auto 30px auto;">
 			  <h3 class="pricing-title">Active Membership required !</h3>

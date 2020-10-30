@@ -8,6 +8,7 @@ if (checkDiscordPermissionHtml('member')){
 if (!checkDiscordPermission($_SESSION['discord']['id'], 'ball')){
 	echo "##NO BALL";
 }
+	else {
 ?>
 <img src="https://www.enfoid.com/assets/images/enfoidprop3.png?1" align="right" width="145px" alt="EnFoid Prop Logo">
 <p>EnFoid provides free Proprietary Funding to talented SwingFish Members.
@@ -81,5 +82,5 @@ leads to a permanent community ban without warning!</h5></center>
 <li> This way of getting funded may take some time.</li>
 <li> By clicking the "Login with Discord" button above you are confirming that you agree and understand the requirements.</li>
 <hr />
-Is this taking too long? <a class="btn btn-sm" href="https://www.enfoid.com/prop/fast-track">Click Here to enrol immediately via Fast-track</a> <small>(does not require any participation)</small>.</center></p>
+<? } ?>Is this taking too long? <a class="btn btn-sm" href="https://www.enfoid.com/prop/fast-track">Click Here to enrol immediately via Fast-track</a> <small>(does not require any participation)</small>.</center></p>
 <? } ?>

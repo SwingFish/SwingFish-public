@@ -7,7 +7,7 @@
 			<div class="p-3">
 				<img src="<?=htmlspecialchars($broker_logo)?>" alt="Pepperstone" class="float-end ms-3 mb-2" style="max-width:120px">
 
-				<p>An Australian. Foreign Exchange Broker with strong execution and competitive spreads across multiple platforms.</p>
+				<p>An Australian Foreign Exchange Broker with strong execution and competitive spreads across multiple platforms.</p>
 				<p>With multiple server locations, providing an average execution speed of under 40ms. Close to 50 liquidity providers including Citi, XTX, UBS, Credit Suisse, Goldman Sachs, HSBC and more.</p>
 				<p>Pepperstone provides outstanding execution even on exotic assets and keeps spreads at a minimum even during major events.</p>
 			</div>

@@ -1,0 +1,18 @@
+{
+    "name": "Fondex",
+    "url": "https://www.fondex.com",
+    "ib": "",
+    "logo": "/assets/brokers/fondex-logo.png",
+    "color": "#0d6efd",
+    "tag": "fondex",
+    "features": ["cTrader ONLY", "Max Leverage 1:30", "Forex/Stocks/Crypto (CFD)", "Regulated: CySEC"],
+    "restrictions": ["Not accepting US/CA Clients"],
+    "ratings": {
+        "24/7 Crypto Trading": 10,
+        "Spreads": 5,
+        "NO Scalping": 1,
+        "Execution Speed": 7,
+        "Withdrawal Speed": 6,
+        "Front desk Support": 4
+    }
+}

@@ -187,12 +187,15 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
 	if (!location.hash) return;
-	var target = document.querySelector(location.hash);
-	if (!target) return;
-	var collapse = target.querySelector('.accordion-collapse') || document.getElementById('faq-' + location.hash.substring(1));
+	var el = document.querySelector(location.hash);
+	if (!el) return;
+	var collapse = el.classList.contains('accordion-collapse')
+		? el
+		: el.querySelector('.accordion-collapse');
 	if (collapse && typeof bootstrap !== 'undefined') {
 		new bootstrap.Collapse(collapse, {show: true});
 	}
-	target.scrollIntoView({behavior: 'smooth', block: 'start'});
+	var scrollTarget = collapse ? collapse.closest('.accordion-item') || el : el;
+	scrollTarget.scrollIntoView({behavior: 'smooth', block: 'start'});
 });
 </script>
